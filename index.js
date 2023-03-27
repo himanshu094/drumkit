@@ -5,7 +5,7 @@ for(var i=0;i<numb;i++)
 {
   document.querySelectorAll(".drum")[i].addEventListener("click",function() {
 
-         this.style.color="white"
+         
          var btnOn=this.innerHTML
          makeSound(btnOn)
    })
